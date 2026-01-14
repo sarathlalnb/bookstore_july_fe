@@ -1,0 +1,35 @@
+1.
+ npm i @react-oauth/google
+
+ 2. Google Console 
+    -> Create a new project
+    -> credentials -> consent screen -> Fill Details
+    -> get client id
+
+ 3. Inside Main.jsx
+
+    import @react-oauth/google
+
+
+    "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ1NDNlMjFhMDI3M2VmYzY2YTQ3NTAwMDI0NDFjYjIxNTFjYjIzNWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI0MzYyNTYwODY3MC1hM2E0MWQ3bTlmNjV0aDlzdTVtZHY1aDkzOHZ0cHFhZS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjQzNjI1NjA4NjcwLWEzYTQxZDdtOWY2NXRoOXN1NW1kdjVoOTM4dnRwcWFlLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0MTI0MzQxMjQ1ODkxODgyODgxIiwiZW1haWwiOiJzYXJhdGhsdW1pbmFyQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NjUxNjc0MzgsIm5hbWUiOiJTYXJhdGggTGFsIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0xaVF9xUVJWd3FxeTlDUzdrODV2QTNWdDZkM2xQcnlITDRhSWRYOFJQMTdTNzFQZz1zOTYtYyIsImdpdmVuX25hbWUiOiJTYXJhdGgiLCJmYW1pbHlfbmFtZSI6IkxhbCIsImlhdCI6MTc2NTE2NzczOCwiZXhwIjoxNzY1MTcxMzM4LCJqdGkiOiIyYWEzNWZmYmRjMjEyYjM0NWU3NTQ3ZTE4M2QzZmNkYTBhNDQ4YzNlIn0.XIi9iCZH9H9V_Swem3b_B7UeCAX3tn4IF2J0ScK7R4PUWFGY41H3XJO2VCZCitwan2Wzuj3VOuyzgeQHCm4qdINSuTvRB0jU9AS4VwZ9_9XbS-bwhulqUSDyp0sOsDpIqoofRCK7wR3OTGKRY5tgqKNNN9vResnOcrza7rMMPPlAHGmh7xKBKq9qj9HMVtjfZFzaDhSTUp76AVDU1a_uJBvXPca4khB3S2zQ_F2ThRguERrThoNQDmEf8sNIv_1__YF1RWqfz3C4HGBm8hb-N14V-7MA3pUvgbL_cFF0hJglpFHS_0FYW-23bO02eEw8uZtjm2EHf7R85VKqyWtxbw"
+
+
+
+The React Context API is a built-in feature in React that allows you to share data (state, functions, etc.) across components without explicitly passing props down through every level of the component tree, a problem known as "prop drilling". It is designed for sharing "global" data like themes, user authentication status, or language preferences. 
+
+
+
+Create Context
+
+First, use the createContext function from React to create a context object. 
+
+
+Provider
+
+Wrap the components that need access to the shared data with the context's Provider component. The Provider accepts a value prop which holds the data you want to share.
+
+
+
+UseContext
+
+useContext is a React Hook that simplifies accessing data from React's Context API, allowing components to subscribe to context changes and consume shared data (like themes, user auth) without prop drilling, by reading values from the nearest Context Provider up the component tree, avoiding manual prop passing through intermediate components.

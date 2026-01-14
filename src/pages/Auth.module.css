@@ -1,0 +1,99 @@
+.authPage {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1610072175216-df383b91b89d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ym9vayUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlayWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overlayHeading {
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.boxOverlay {
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.inputField {
+  background-color: rgb(6, 5, 5);
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  margin-bottom: 10px;
+}
+
+.icon{
+    display: block;
+    font-size: 40px;
+    margin: 0 auto 10px;;
+}
+.loginTitle{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}.sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.span1{
+    font-size: 10px;
+    color: yellow;
+}
+.span2{
+    font-size: 10px;
+    color: white;
+}
+.btn1{
+    background-color: rgb(4, 88, 4);
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn2{
+    background-color: white;
+     width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    color:black
+}
+.google{
+    font-size: 30px;
+}
+.sign{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.register{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
