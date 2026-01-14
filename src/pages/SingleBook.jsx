@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Header from "../components/Header";
-import { buyBook, getSingleBook } from "../services/AllApi";
+import { buyBook, getSingleBook } from "../services/allApi";
 import {
   Button,
   Modal,

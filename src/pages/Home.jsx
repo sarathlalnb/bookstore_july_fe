@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import { toast } from "react-toastify";
-import { getLimitedBooks } from "../services/AllApi";
+import { getLimitedBooks } from "../services/allApi";
 
 const Home = () => {
   const [bookData, setBookData] = useState([]);

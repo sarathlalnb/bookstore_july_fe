@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 import { FaCheckCircle } from "react-icons/fa";
 import { toast } from "react-toastify";
-import { addBook, getUserDetails } from "../services/AllApi";
+import { addBook, getUserDetails } from "../services/allApi";
 import EditProfile from "../components/EditProfile";
 
 const Profile = () => {

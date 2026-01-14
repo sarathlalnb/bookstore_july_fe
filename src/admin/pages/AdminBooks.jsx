@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import AdminHeader from "../components/AdminHeader";
 import AdminSidebar from "../components/AdminSidebar";
 import { toast } from "react-toastify";
-import { getAllBooks, getAllUsers } from "../../services/AllApi";
+import { getAllBooks, getAllUsers } from "../../services/allApi";
 import { baseURL } from "../../services/baseURL";
 
 const AdminBooks = () => {

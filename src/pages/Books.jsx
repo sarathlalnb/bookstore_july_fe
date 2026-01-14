@@ -1,7 +1,7 @@
 import React, { use, useContext, useEffect, useState } from "react";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
-import { getAllBooks } from "../services/AllApi";
+import { getAllBooks } from "../services/allApi";
 import { toast } from "react-toastify";
 import { authContext } from "../context/authContext";
 

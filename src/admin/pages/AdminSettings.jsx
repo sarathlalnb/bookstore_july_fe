@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import AdminHeader from "../components/AdminHeader";
 import AdminSidebar from "../components/AdminSidebar";
 import { toast } from "react-toastify";
-import { getUserDetails, updateProfile } from "../../services/AllApi";
+import { getUserDetails, updateProfile } from "../../services/allApi";
 
 const AdminSettings = () => {
   const [preview, setPreview] = useState(

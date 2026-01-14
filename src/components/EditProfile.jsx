@@ -8,7 +8,7 @@ import {
 } from "flowbite-react";
 import { FaEdit } from "react-icons/fa";
 import { toast } from "react-toastify";
-import { updateProfile } from "../services/AllApi";
+import { updateProfile } from "../services/allApi";
 
 const EditProfile = ({ userDetails }) => {
   const [openModal, setOpenModal] = useState(false);

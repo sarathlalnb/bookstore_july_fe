@@ -5,7 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 
 // Returns a function that lets you navigate programmatically in the browser in response to user interactions or effects.
 import { Link, useNavigate } from "react-router-dom";
-import { googleLoginAPI, loginUser, registerUser } from "../services/AllApi";
+import { googleLoginAPI, loginUser, registerUser } from "../services/allApi";
 import { toast } from "react-toastify";
 import { GoogleLogin } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";

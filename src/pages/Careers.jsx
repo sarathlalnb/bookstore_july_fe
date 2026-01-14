@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 
 import { toast } from "react-toastify";
-import { applyJob, getAllJobs } from "../services/AllApi";
+import { applyJob, getAllJobs } from "../services/allApi";
 import { Card } from "flowbite-react";
 import {
   Button,

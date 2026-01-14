@@ -14,7 +14,7 @@ import {
   deleteJob,
   getAllApplications,
   getAllJobs,
-} from "../../services/AllApi";
+} from "../../services/allApi";
 import { faL } from "@fortawesome/free-solid-svg-icons";
 import { Card } from "flowbite-react";
 import { authContext } from "../../context/authContext";
